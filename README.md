@@ -6,3 +6,6 @@ Web site desenvolvido com HTML e CSS com algumas implementações Javascript.
  - Trabalhar na branch Develop e caso necessário, criar Features para trabalhar componentes.
 
  -  Realise 1.0 [OK]
+ -  Realise 1.1 [OK]
+ -  Realise 1.2 [OK]
+ -  Realise 1.3 [OK]
