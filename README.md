@@ -7,5 +7,9 @@ Web site desenvolvido com HTML e CSS com algumas implementações Javascript.
 
  -  Realise 1.0 [OK]
  -  Realise 1.1 [OK]
- -  Realise 1.2 [OK]
- -  Realise 1.3 [OK]
+ -  Realise 1.2(cabeçalho) [OK]
+ -  Realise 1.4 [OK]
+ -  Realise 1.5 [OK]
+ -  Realise 1.6 [OK]
+ -  Realise 2.0 [OK]
+ Realise 2.1 [OK]
