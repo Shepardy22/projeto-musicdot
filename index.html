@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/form-newsletter.css" />
     <link rel="stylesheet" href="css/cursos.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/planos.css">
   </head>
 
   <body>
@@ -43,25 +45,33 @@
       </nav>
     </header>
 
-
     <!-- ############################## main ################################# -->
     <main>
       <section class="cursos">
-
         <article class="cursos__chamada --largura-grande">
-          <h1 class="chamada__titulo">Cursos online de<strong class="chamada__titulo--destaque"> música</strong></h1>
+          <h1 class="chamada__titulo">
+            Cursos online de<strong class="chamada__titulo--destaque">
+              música</strong
+            >
+          </h1>
 
           <p>Comece agora e aprenda sua primeira música em 10 minutos!</p>
 
-          <a href="cursos.html" class="chamada__cursos__matricula botao">Matricule-se</a>
+          <a href="cursos.html" class="chamada__cursos__matricula botao"
+            >Matricule-se</a
+          >
         </article>
 
         <nav>
           <ul class="cursos__lista">
             <li class="curso--tecladopiano"><a href="#">Teclado & Piano</a></li>
-            <li class="curso--violaoguitarra"><a href="#">Violão & Guitarra</a></li>
+            <li class="curso--violaoguitarra">
+              <a href="#">Violão & Guitarra</a>
+            </li>
             <li class="curso--baixo"><a href="#">Baixo</a></li>
-            <li class="curso--bateria curso--destaque"><a href="#">Bateria</a></li>
+            <li class="curso--bateria curso--destaque">
+              <a href="#">Bateria</a>
+            </li>
             <li class="curso--percussao"><a href="#">Percussão</a></li>
             <li class="curso--canto curso--destaque2"><a href="#">Canto</a></li>
             <li class="curso--audio"><a href="#">Áudio</a></li>
@@ -70,8 +80,76 @@
             <li class="curso--cordas"><a href="#">Cordas</a></li>
           </ul>
         </nav>
-
       </section>
+<!-- #######################################videos############################### -->
+
+      <section class="video">
+        <video
+          controls
+          class="video--mobile"
+          src="video/video-promocional.mp4"
+          poster="img/video-principal-mobile.png"
+        ></video>
+
+        <video
+          controls
+          class="video--desktop"
+          src="video/video-promocional.mp4"
+          poster="img/video-principal.png"
+        ></video>
+
+        <article class="video__textos">
+          <h2 class="textos__titulo">Estude com os melhores professores</h2>
+
+          <p>Aprenda no seu ritmo, sem sair de casa</p>
+        </article>
+      </section>
+
+      <section class="planos">
+        
+        <h2 class="planos__titulo">Acesso ilimitado a todos os cursos</h2>
+        
+        <article class="cards__planoanual">
+        
+        <span class="plano--destaque">  Assinado</span>
+        
+        <div class="planos__card card--anual">
+        
+        <h3 class="plano__titulo">Plano Anual</h3>
+        
+        <p>12x <span class="valor--destaque">R$ 50,00</span></p>
+        
+        <p>Valor total de R$ 600,00</p>
+        
+        <span>Acesso à Alura Língua</span>
+        
+        <a href="cursos.html" class="cards__botao botao">Matricule-se</a>
+        
+        </div>
+        
+        </article>
+        
+        <article class="planos__card card--semestral">
+        
+        <h3 class="plano__titulo">Plano Semestral</h3>
+        
+        <p>12x <span class="valor--destaque">R$ 60,00</span></p>
+        
+        <p>Valor total de R$ 360,00</p>
+        
+        <a href="cursos.html" class="cards__botao botao">Matricule-se</a>
+        
+        </article>
+        
+        <article class="planos__pagamentos">
+        
+        <p>Pagamento seguro com PayPal</p>
+        
+        <p>Oferecemos boleto à vista, <a href="#">basta entrar em contato</a></p>
+        
+        </article>
+        </section>
+      
     </main>
 
     <!-- ############################## rodape ################################# -->
@@ -115,11 +193,17 @@
         <h2 class="rodape__titulo">Cursos da MusicDot</h2>
         <nav>
           <ul>
-            <li class="rodape_item-lista"><a href="#">Cursos de Teclado & Piano</a></li>
-            <li class="rodape_item-lista"><a href="#">Cursos de Violão/Guitarra</a></li>
+            <li class="rodape_item-lista">
+              <a href="#">Cursos de Teclado & Piano</a>
+            </li>
+            <li class="rodape_item-lista">
+              <a href="#">Cursos de Violão/Guitarra</a>
+            </li>
             <li class="rodape_item-lista"><a href="#">Cursos de Baixo</a></li>
             <li class="rodape_item-lista"><a href="#">Cursos de Bateria</a></li>
-            <li class="rodape_item-lista"><a href="#">Cursos de Percussão</a></li>
+            <li class="rodape_item-lista">
+              <a href="#">Cursos de Percussão</a>
+            </li>
             <li class="rodape_item-lista"><a href="#">Cursos de Canto</a></li>
             <li class="rodape_item-lista"><a href="#">Cursos de Áudio</a></li>
             <li class="rodape_item-lista"><a href="#">Cursos de Teoria</a></li>
