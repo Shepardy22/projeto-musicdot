@@ -12,4 +12,5 @@ Web site desenvolvido com HTML e CSS com algumas implementações Javascript.
  -  Realise 1.5 [OK]
  -  Realise 1.6 [OK]
  -  Realise 2.0 [OK]
- Realise 2.1 [OK]
+ -  Realise 2.1 [OK]
+ -  Realise 2.2 [OK] 
